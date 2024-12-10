@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter_course/pages/day5/page1.dart';
-import 'package:flutter_course/pages/practice/page1.dart';
+// import 'package:flutter_course/pages/Days/day6/page1.dart';
+// import 'package:flutter_course/pages/Days/day6/intro_page.dart';
+import 'package:flutter_course/pages/Days/day8/home_page.dart';
 
 void main() {
   runApp(const MainApp());
@@ -12,7 +13,8 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Page1(),
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
     );
   }
 }
