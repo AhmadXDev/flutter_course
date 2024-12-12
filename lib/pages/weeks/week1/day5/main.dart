@@ -1,9 +1,7 @@
-// ignore: avoid_relative_lib_imports
-import 'pages/weeks/week2/day3/lib/pages/home_page.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_course/pages/weeks/week1/day5/page2.dart';
 
 void main() {
-  // Api().getData();
   runApp(const MainApp());
 }
 
@@ -12,6 +10,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: HomePage());
+    return const MaterialApp(home: Page2());
   }
 }

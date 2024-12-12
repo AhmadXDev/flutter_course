@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_course/pages/Days/day5/page2.dart';
+import 'package:flutter_course/pages/weeks/week1/day5/page2.dart';
 
 class Page1 extends StatelessWidget {
   const Page1({super.key});

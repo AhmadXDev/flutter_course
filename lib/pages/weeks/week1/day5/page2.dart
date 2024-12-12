@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_course/pages/Days/day5/page2.dart';
+import './page1.dart';
 
-class Page1 extends StatelessWidget {
-  const Page1({super.key});
+class Page2 extends StatelessWidget {
+  const Page2({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.grey,
         title: const Text("Welcome"),
       ),
       body: Padding(
@@ -16,12 +16,12 @@ class Page1 extends StatelessWidget {
         child: Container(
           width: 300,
           height: 300,
-          color: Colors.blue.shade300, // Corrected
+          color: Colors.blue.shade300,
           padding: const EdgeInsets.only(top: 20, left: 10),
           child: Column(
             children: [
               const Text(
-                "The Title",
+                "title",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 40,
@@ -33,18 +33,16 @@ class Page1 extends StatelessWidget {
                 children: [
                   const Icon(Icons.face),
                   ElevatedButton(
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => const Page2(),
-                        ),
-                      );
-                    },
-                    child: const Text("move"),
-                  ),
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const Page1(),
+                            ));
+                      },
+                      child: const Text("move"))
                 ],
-              ),
+              )
             ],
           ),
         ),

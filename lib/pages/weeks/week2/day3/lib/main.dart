@@ -1,5 +1,4 @@
-// ignore: avoid_relative_lib_imports
-import 'pages/weeks/week2/day3/lib/pages/home_page.dart';
+import 'pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
